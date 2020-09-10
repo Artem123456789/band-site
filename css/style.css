@@ -1,0 +1,131 @@
+.nav-link{
+    color:  white;
+    text-transform: uppercase;
+}
+
+.nav-link:hover{
+    background: white;
+    color: black;
+}
+
+.slider{
+    width: 100%;
+    position: relative;
+}
+
+.slide-image{
+    width: 100%;
+}
+
+.slide-text{
+    color: white;
+    position: absolute;
+    left: 50%;
+    bottom: 0;
+    transform: translate(-50%, 0%);
+    padding: 32px 0px 32px 0px;
+    text-align: center;
+}
+
+.band-desc{
+    margin-top: 100px;
+}
+
+.band-desc-article>*{
+    padding-bottom: 20px;
+}
+
+.band-desc-name{
+    text-transform: uppercase;
+    text-align: center;
+}
+
+.band-desc-speech{
+    color: gray;
+    text-align: center;
+}
+
+.tour-dates{
+    margin-top: 150px;
+    background: black;
+    padding: 35px 0px 35px 0px;
+}
+
+.tour-dates-text{
+    text-align: center;
+}
+
+.tour-dates-text-header{
+    text-transform: uppercase;
+    color: white;
+}
+
+.tour-dates-text-tickets{
+    font-style: italic;
+    color: gray;
+}
+
+.tour-date-months{
+    background: white;
+}
+
+.tour-date-month{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    height: 50px;
+    text-align: center;
+    border: 1px solid black;
+}
+
+.tour-date-tickets-available{
+    justify-content: space-between;
+}
+
+.tour-date-month-name{
+    color: gray;
+    padding: 10px;
+}
+
+.tour-date-month-status{
+    font-size: 14px;
+    color: white;
+    background: red;
+    margin-bottom: 5px;
+    padding: 3px;
+}
+
+.tour-date-month-count-tickets{
+    justify-self: end;
+    margin-bottom: 5px;
+    margin-right: 10px;
+    border-radius: 50%;
+    background: black;
+    width: 25px;
+    color: white;
+}
+
+@media screen and (max-width: 576px)
+{
+
+}
+
+@media screen and (min-width: 576px)
+{
+
+}
+
+@media screen and (min-width: 768px)
+{
+
+}
+
+@media screen and (min-width: 992px)
+{
+
+}
+
+@media screen and (min-width: 1200px)
+{
+
+}
