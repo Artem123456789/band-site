@@ -48,7 +48,7 @@
 .tour-dates{
     margin-top: 150px;
     background: black;
-    padding: 35px 0px 90px 0px;
+    padding: 50px 0px 200px 0px;
 }
 
 .tour-dates-text{
@@ -67,13 +67,13 @@
 
 .tour-date-months{
     background: white;
+    margin-top: 50px;
 }
 
 .tour-date-month{
     display: flex;
     flex-direction: row;
     align-items: center;
-    height: 50px;
     text-align: center;
     border: 1px solid black;
 }
@@ -106,16 +106,75 @@
 }
 
 .tour-dates-cities{
-    margin-top: 100px;
+    margin-top: 50px;
 }
 
 .tour-date-city{
-    height: 200px;
+    height: 300px;
 }
 
 .tour-date-city-img{
     width: 100%;
-    height: 200px;
+    height: 230px;
+}
+
+.tour-date-city-text{
+    background: white;
+    padding: 10px;
+}
+
+.tour-date-city-name{
+    font-weight: bold;
+}
+
+.tour-date-city-date{
+    color: gray;
+}
+
+.tour-date-city-buy-btn{
+    border: 1px solid black;
+    background: black;
+    color: white;
+    padding: 7px;
+}
+
+.contact{
+    margin-top: 100px;
+}
+
+.contact-text{
+    text-align: center;
+}
+
+.contact-text-header{
+    text-transform: uppercase;
+}
+
+.contact-text-fan{
+    color: gray;
+    font-style: italic;
+}
+
+.contact-input{
+    border: 0.1px solid gray;
+    padding: 5px;
+}
+
+.contact-message{
+    width: 100%;
+}
+
+.contact-send-form{
+    border: 1px solid black;
+    padding: 10px;
+    background: black;
+    color: white;
+    text-transform: uppercase;
+}
+
+footer{
+    margin-top: 150px;
+    width: 100%;
 }
 
 @media screen and (max-width: 576px)
