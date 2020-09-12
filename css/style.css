@@ -1,6 +1,16 @@
-.nav-link{
-    color:  white;
+footer{
+    margin-top: 150px;
+}
+
+nav{
+    height: 50px;
+    background: black;
+    color: white;
+}
+
+.menu-item{
     text-transform: uppercase;
+    list-style: none;
 }
 
 .nav-link:hover{
@@ -155,6 +165,20 @@
     font-style: italic;
 }
 
+.contact-info{
+    margin-top: 75px;
+}
+
+.name-email-inputs{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+
+.contact-name, .contact-email{
+    width: 48%;
+}
+
 .contact-input{
     border: 0.1px solid gray;
     padding: 5px;
@@ -162,6 +186,7 @@
 
 .contact-message{
     width: 100%;
+    margin-top: 10px;
 }
 
 .contact-send-form{
@@ -170,11 +195,21 @@
     background: black;
     color: white;
     text-transform: uppercase;
+    text-align: center;
+    float: right;
+    margin-top: 10px;
 }
 
-footer{
-    margin-top: 150px;
+.map{
     width: 100%;
+}
+
+.map-img{
+    width: inherit;
+}
+
+.social-networks{
+    margin-top: 150px;
 }
 
 @media screen and (max-width: 576px)
