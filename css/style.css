@@ -3,14 +3,12 @@ footer{
 }
 
 nav{
-    height: 50px;
     background: black;
-    color: white;
 }
 
-.menu-item{
+.nav-link{
+    color: white;
     text-transform: uppercase;
-    list-style: none;
 }
 
 .nav-link:hover{
@@ -19,6 +17,7 @@ nav{
 }
 
 .slider{
+    margin-top: 50px;
     width: 100%;
     position: relative;
 }
